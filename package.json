@@ -1,0 +1,23 @@
+{
+  "name": "ajs-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igor-chazov/ajs-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igor-chazov/ajs-node/issues"
+  },
+  "homepage": "https://github.com/igor-chazov/ajs-node#readme",
+  "dependencies": {
+    "@igor-chazov/ajs": "^1.0.0"
+  }
+}
