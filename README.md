@@ -58,31 +58,31 @@
 
 Перейдите в настройки:
 
-![](pic/settings-menu.png)
+![](__pic/settings-menu.png)
 
 Выберите пункт меню Developer Settings:
 
-![](pic/developer-menu.png)
+![](__pic/developer-menu.png)
 
 Выберите пункт меню Personal Access Tokens (1), затем нажмите на кнопку Generate new token (2):
 
-![](pic/generate-token.png)
+![](__pic/generate-token.png)
 
 Заполните поле Note (1) и поставьте флажок напротив write:packages (2), остальные все флажки выставятся автоматически:
 
-![](pic/token-settings.png)
+![](__pic/token-settings.png)
 
 После чего нажмите на кнопку Generate в самом низу страницы:
 
-![](pic/token-generate-button.png)
+![](__pic/token-generate-button.png)
 
 GitHub запроси у вас пароль для подтверждения:
 
-![](pic/github-sudo.png)
+![](__pic/github-sudo.png)
 
 После чего вам будет сгенерирован токен. **Важно**: токен будет показан только один раз, поэтому убедитесь, что скопировали его:
 
-![](pic/token.png)
+![](__pic/token.png)
 
 Если вдруг вы всё-таки не скопировали его, то просто удалите старый и сгенерируйте новый.
 
@@ -210,17 +210,17 @@ export default {
 
 Для этого есть команда `npm publish`. Если вы всё сделали правильно, то её вывод будет выглядеть примерно так (конечно, у вас будут другие адреса):
 
-![](pic/publishing.png)
+![](__pic/publishing.png)
 
 Обратите внимание, что `dist/index.js` есть в опубликованном пакете, но не хранится в GitHub.
 
 Теперь обновите страницу репозитория. Сбоку вы должны увидеть информацию о пакете:
 
-![](pic/published.png)
+![](__pic/published.png)
 
 Кликните на имени пакета, чтобы посмотреть информацию о нём:
 
-![](pic/package-info.png)
+![](__pic/package-info.png)
 
 #### Шаг 7. Использование библиотеки
 
@@ -249,7 +249,7 @@ console.log(ajs.info());
 
 Проверьте, что запускается (`npm start`):
 
-![](pic/node.png)
+![](__pic/node.png)
 
 Теперь сделаем почти то же самое в браузере. Здесь нам придётся немного посложнее, поскольку для npmjs.com есть специальный CDN https://unpkg.com/, который вам позволяет через URL подключать конкретные файлы.
 
@@ -257,29 +257,29 @@ console.log(ajs.info());
 
 Удалите каталог dist из .gitignore и запушьте его на GitHub (удостоверьтесь, что он там появился):
 
-![](pic/dist.png)
+![](__pic/dist.png)
 
 Перейдите к файлу index.js (который в каталоге dist) и нажмите на кнопку Raw:
 
-![](pic/raw.png)
+![](__pic/raw.png)
 
 Скопируйте URL из строки браузера (в примере он вот такой: https://raw.githubusercontent.com/netology-code/ajs/master/dist/index.js).
  
 Теперь перейдите на сервис [GitCDN](https://gitcdn.link/), подставьте получившийся URL в верхнее поле (1), а с нижнего скопируйте итоговый URL (2):
 
-![](pic/cdn.png)
+![](__pic/cdn.png)
 
 Остался последний штрих: воспользуйтесь сервисом [JSBin](https://jsbin.com) для того, чтобы быстро проверить работоспособность вашего кода:
 
-![](pic/jsbin.png)
+![](__pic/jsbin.png)
 
 После чего выберите File -> Save Snapshot:
 
-![](pic/snapshot.png)
+![](__pic/snapshot.png)
 
 После этого станет активна кнопка Share (вам нужно скопировать URL):
 
-![](pic/share.png)
+![](__pic/share.png)
 
 ### Итого
 
